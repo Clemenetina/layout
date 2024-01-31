@@ -1,11 +1,63 @@
-body{
+/*    geeral style for the htm code  */
+*{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    background-color: white;
+    font-style: normal;
+    font-family: Helvetica, Arial, Sans-serif ;
+
 }
+
+/* style for all the element under the header  */
 header{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    gap: 40%;
+    padding-top: 21.6px;
+   
+}
+/* styling the image at the header  */
+header img{
+    width: 268px;
+    height: 33px;
+   
+}
+/* style for navbar */
+nav a {
+    color: #b4b4b4;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-inline-start: 10px;
+}
+nav a:hover{
+    color: #00b39b;
+}
+/*stylying the first section */
+.ma{
+    margin-bottom: 162px;
+    margin-top: ;
+    text-align: center;
+}
+.ma img{
+    width: 40px;
+    height: 40px;
+}
+.ma h1{
+    color: #00b39b;
+    margin: 10px;
+    font-size: 33px;
+    letter-spacing: -0.3px;
+    font-family: 'Work Sans', Arial, sans-serif;
+    
+
+}
+#mma{
+    width: 65%;
+    display: flex;
+    justify-content: ;
+    margin: 0 auto;
+    text-align: left;
+    gap: 2vw;
 }
